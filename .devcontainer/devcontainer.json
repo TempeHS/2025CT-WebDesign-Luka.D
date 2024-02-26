@@ -11,7 +11,8 @@
   	"updateContentCommand": "npm install",
   	"postCreateCommand": "",
   	"postAttachCommand": {
-    	"server": "npm start"
+    	"server": "npm update",
+		"server": "npm start"
   	}, 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
