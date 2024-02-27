@@ -37,6 +37,7 @@
 				"ritwickdey.LiveServer",
 				"oderwat.indent-rainbow",
 				"ms-vscode-remote.remote-containers",
+				"ms-vscode-remote.remote-wsl",
 				"GitHub.codespaces",
 				"miramac.vscode-exec-node",
 				"McCarter.start-git-bash",
