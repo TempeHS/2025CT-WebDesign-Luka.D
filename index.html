@@ -2,11 +2,38 @@
 
 <HEAD>
     <TITLE>My Second Webpage</TITLE>
+    <STYLE>
+        P {
+            text-align: center;
+            color: #36454F;
+        }
+
+        H3 {
+            transform: rotate(180deg);
+            text-align: right;
+            color: red
+        }
+
+        .blueText {
+            color: blue
+        }
+
+        #logo {
+            width: 200px;
+            height: 200px;
+            border-left: 5px solid red;
+            border-bottom: 5px solid red;
+            border-radius: 0 50px 0 0;
+            border: 2px solid red;
+            border-radius: 25px;
+        }
+    </STYLE>
 </HEAD>
 
 <BODY>
     <h1>Heading 1</h1>
     <h2>Heading 3</h2>
+    <h3 class="blueText">Heading 3</h3>
     <h3>Heading 3</h3>
     <p>Paragraph
     <p>some text that is <em>Emotional</em> and different</p>
@@ -18,7 +45,7 @@
     <br />
     <button>Button</button>
     <br />
-    <img src="https://www.google.com/doodles/static/sprites/sprites_v3.png" />
+    <img id="logo" src="https://www.google.com/doodles/static/sprites/sprites_v3.png" />
     <br />
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=1l8m8YPLAyl_ak-T"
