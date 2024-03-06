@@ -1,3 +1,4 @@
-let myAlert="Hello World Again";
+let myIntro = "Hello ";
+let enterName = prompt("Please Enter Your Name")
 
-alert("Hello World");
+alert(myIntro + enterName);
