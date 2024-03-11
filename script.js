@@ -4,5 +4,5 @@ loadDIV 9;
 
 
 function loadDIV () {
-document.getElementById("ScriptThisDIV").innerHTML = "<H1>Hello" + enterName +"<H1></H1>"
+    document.getElementById("ScriptThisDIV").innerHTML = "<H1>Hello" + enterName +"<H1></H1>"
 }
