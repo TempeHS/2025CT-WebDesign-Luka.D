@@ -1,5 +1,5 @@
 let enterName = prompt("Enter your name");
-loadDIV 9;
+loadDIV ();
 
 
 
