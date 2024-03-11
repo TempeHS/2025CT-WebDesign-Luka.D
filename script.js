@@ -1,5 +1,3 @@
-let myIntro = 15;
-let enterName = 15;
-if (myIntro == enterName) {
-    alert(myIntro);
-}
+let enterName = prompt ("Enter your name");
+
+document.getElementById("ScriptThisDiv").innerHTML = "Hello" + enterName
