@@ -1,0 +1,23 @@
+.mainpageheading {
+    height: 60px;
+    text-align: center;
+}
+
+.contentmainpage {
+    background-color: #e4d0b8;
+    border: 6px solid #c69866;
+    text-align: center;
+}
+
+.padding {
+    padding: 200px;
+}
+
+.balls{
+    background-color: #e4d0b8;
+}
+
+.navbar {
+    border: 5px solid black;
+    background-color: #e4d0b8;
+}
